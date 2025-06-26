@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-from PFSPNet_Encoder import PFSPNetEncoder
-from PFSPNet_Decoder import PFSPNetDecoder
+from encoding.PFSPNet_Encoder import PFSPNetEncoder
+from decoding.PFSPNet_Decoder import PFSPNetDecoder
 
 class PFSPNet(nn.Module):
     def __init__(self, encoder_args, decoder_args):

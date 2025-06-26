@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
-from encoding_partI import PartI_JobEncoder
-from encoding_partII import PartII_MachineIntegration
-from encoding_partIII import PartIII_Convolutional
+from encoding.encoding_partI import PartI_JobEncoder
+from encoding.encoding_partII import PartII_MachineIntegration
+from encoding.encoding_partIII import PartIII_Convolutional
 
 class PFSPNetEncoder(nn.Module):
     def __init__(self, part1_args, part2_args, part3_args):

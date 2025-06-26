@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from decoding_partI import JobProcessingTimeEncoderForDecoder, DecoderStep1Stage
+from decoding.decoding_partI import JobProcessingTimeEncoderForDecoder, DecoderStep1Stage
 
 class DecoderStep2Stage(nn.Module):
     """

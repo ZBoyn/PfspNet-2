@@ -79,8 +79,6 @@ if __name__ == '__main__':
     hidden_dim_p_fig = 64
 
     new_scalar_input_dim = 2
-
-    # sample_instance_processing_times = torch.rand(num_jobs_n, num_machines_m, new_scalar_input_dim)
     
     processing_times_feature_dim = torch.rand(num_jobs_n, num_machines_m, 1)
     energy_feature_dim = torch.rand(num_jobs_n, num_machines_m, 1) * 10

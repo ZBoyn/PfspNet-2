@@ -7,9 +7,9 @@ from critic_network import CriticNetwork
 import torch.optim as optim
 import matplotlib.pyplot as plt
 import numpy as np
-from calculate_objectives import calculate_objectives_pytorch
-from pareto_archive import ParetoArchive
-from heuristicScheduler import HeuristicScheduler
+from calc.calculate_objectives import calculate_objectives_pytorch
+from calc.pareto_archive import ParetoArchive
+from heu.heuristicScheduler import HeuristicScheduler
 
 def train_one_batch_with_heuristic_reward(
     actor_model, critic_model, optimizer_actor, optimizer_critic,

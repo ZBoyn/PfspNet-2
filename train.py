@@ -6,8 +6,8 @@ from critic_network import CriticNetwork
 import torch.optim as optim
 import matplotlib.pyplot as plt
 import numpy as np
-from calculate_objectives import calculate_objectives_pytorch
-from pareto_archive import ParetoArchive
+from calc.calculate_objectives import calculate_objectives_pytorch
+from calc.pareto_archive import ParetoArchive
 
 # ==============================================================================
 # MODIFIED train_one_batch function
